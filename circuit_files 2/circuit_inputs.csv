@@ -1,0 +1,8 @@
+Name of the circuit file, Change the file name to the name of the circuit file. The file has to be .csv file so do not use another extension.,three_ph_load.csv,inv1_volt.csv,inv1_filt.csv,inv4_volt.csv,inv4_filt.csv,comp_connectors.csv,comp_inv2.csv,inv2_filter.csv,comp_inv3.csv,inv3_filter.csv,
+Time duration of simulation, This is the time in seconds.,3,,,,,,,,,,
+Time step of the simulation, Recommened to be less than 10 microseconds for accuracy.,0.000001,,,,,,,,,,
+Time step of data storage, This is the time step with data is stored and has to be equal to or greater than the simulation time step.,0.00001,,,,,,,,,,
+Name of the data storage file, This is where all meter data and control signals will be stored., ckt_output4.dat,,,,,,,,,,
+Name of control files, Add or remove as many control files as needed in separate columns.,pll.py,inv1_voltcon.py,inv1_modulator.py,inv4_voltcon.py,inv4_modulator.py,comp_inv2_reference.py,currcon_inv2.py,inv2_modulator.py,comp_inv3_reference.py,currcon_inv3.py,inv3_modulator.py
+Split the output file?, Say yes if you think the data file is too large and plotting is taking too much time or else say no.,yes,,,,,,,,,,
+Length of time windows, There should be at least two intervals for storage.,0.5,,,,,,,,,,

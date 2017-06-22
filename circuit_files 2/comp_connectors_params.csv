@@ -1,0 +1,6 @@
+Ammeter, Conn1b, 12L, Positive polarity towards (cell) = 12M, 
+Resistor, Conn1a, 1N, 0.01, 
+Ammeter, Conn1a, 1L, Positive polarity towards (cell) = 1M, 
+Resistor, Conn1c, 24N, 0.01, 
+Ammeter, Conn1c, 24L, Positive polarity towards (cell) = 24M, 
+Resistor, Conn1b, 12N, 0.01, 
